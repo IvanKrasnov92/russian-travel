@@ -1,0 +1,15 @@
+.intro__box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+    .intro__box {
+        width: 690px
+    }
+}
