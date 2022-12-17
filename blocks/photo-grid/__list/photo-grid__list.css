@@ -18,8 +18,10 @@
         row-gap: 9px;       
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .photo-grid__list {
         grid-template-columns: repeat(4, 1fr);
+        column-gap: 16px;
+        row-gap: 20px; 
     }
 }
