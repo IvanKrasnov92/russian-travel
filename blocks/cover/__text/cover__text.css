@@ -12,3 +12,8 @@
         padding: 196px 0;
     }
 }
+@media screen and (min-width: 1280px) {
+    .cover__text {
+        padding: 246px 0;;
+    }
+}

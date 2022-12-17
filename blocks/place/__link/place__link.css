@@ -7,3 +7,7 @@ line-height: 122%;
 font-weight: 400;
 font-style: normal;
 }
+.place__link:hover {
+    transition: opacity 3s,  transform 3s;
+    opacity: 0.3;
+}

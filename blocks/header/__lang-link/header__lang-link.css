@@ -7,6 +7,10 @@
     font-size: 18px;
     line-height: 20px;
 }
+.header__lang-link:hover {
+    transition: opacity 3s,  transform 3s;
+    opacity: 0.3;
+}
 .header__lang-link:last-child {
     margin-right: 0;
 }
