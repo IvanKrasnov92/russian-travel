@@ -1,0 +1,18 @@
+.place {
+    margin: 0 auto;
+    display: grid;
+    row-gap: 50px;
+}
+@media screen and (min-width: 768px) {
+    .place {
+        width: 720px;
+        row-gap: 73px;
+        margin: 86px auto;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .place {
+        width: 928px;
+    }
+
+}

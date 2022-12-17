@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin: 5% 5% 48px 5%;
+}
+@media screen and (min-width: 768px) {
+    .header {
+        margin: 25px 24px 0px;
+        width: 720px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .header {
+        width: 928px;
+        margin: 25px auto;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .header {
+        width: 1184px;
+    }
+}

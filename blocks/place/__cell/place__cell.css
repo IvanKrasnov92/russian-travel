@@ -1,0 +1,28 @@
+.place__cell {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+}
+.place__cell:last-child {
+    margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+    .place__cell {
+        grid-template-columns: 340px 1fr;
+        column-gap: 10px;
+        row-gap: 45px;
+    }
+    .place__cell:last-child {
+        margin-top: 6px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .place__cell {
+        grid-template-columns: 440px 1fr;
+        column-gap: 10px;
+        row-gap: 52px;    
+    }
+    .place__cell:last-child {
+    margin-top: 0px;
+    }
+}
