@@ -28,7 +28,7 @@
 }
 @media screen and (min-width: 1280px) {
     .place__cell {
-        grid-template-columns: 460px 1fr;
+        grid-template-columns: 0.95fr  1.05fr;
         column-gap: 10px;
         row-gap: 52px;    
     }
