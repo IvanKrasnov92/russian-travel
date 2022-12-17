@@ -1,0 +1,14 @@
+.cover__text {
+    padding: 33px 0;
+    z-index: 2;
+}
+@media screen and (min-width: 768px) {
+    .cover__text {
+        padding: 117px 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cover__text {
+        padding: 196px 0;
+    }
+}
