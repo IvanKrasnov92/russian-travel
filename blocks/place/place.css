@@ -1,25 +1,27 @@
 .place {
     margin: 0 auto;
     display: grid;
-    row-gap: 50px;
+    row-gap: 35px;
 }
 @media screen and (min-width: 768px) {
     .place {
         max-width: 720px;
-        row-gap: 73px;
-        margin: 86px auto;
+        row-gap: 65px;
+        margin: 86px auto 65px;
     }
 }
 @media screen and (min-width: 1024px) {
     .place {
         max-width: 928px;
-        row-gap: 73px;
+        row-gap: 67px;
+        margin: 86px auto 78px;
     }
 
 }
 @media screen and (min-width: 1280px)  {
     .place {
         max-width: 984px;
-        row-gap: 70px;
+        row-gap: 60px;
+        margin: 86px auto 73px;
     }
 }
