@@ -7,9 +7,19 @@
     position: relative;
     z-index: 1;
 }
+@media screen and (min-width: 768px) {
+    .cover {
+        margin-top: 68px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cover {
+        margin-top: 95px;
+    }
+}
 @media screen and (min-width: 1280px) {
     .cover {
         max-width: 1184px;
-        margin: 65px auto;
+        margin: 92px auto;
     }
 }
