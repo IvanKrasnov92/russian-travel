@@ -13,7 +13,7 @@
 @media screen and (min-width: 1024px) {
     .place {
         max-width: 928px;
-        row-gap: 67px;
+        row-gap: 80px;
         margin: 86px auto 78px;
     }
 
@@ -21,7 +21,6 @@
 @media screen and (min-width: 1280px)  {
     .place {
         max-width: 984px;
-        row-gap: 60px;
         margin: 86px auto 73px;
     }
 }
